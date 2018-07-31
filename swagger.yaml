@@ -140,6 +140,22 @@ paths:
           description: Success
           schema:
             $ref: '#/definitions/Address'
+          examples:
+            application/json:
+              - id: 123
+                href: 30912930
+                streetNr: Street
+                streetNrSuffix: STreet Suffix
+                streetNrLast: street Near Last
+                streetNrLastSuffix: street Near Last suffix
+                streetName: street Name
+                streetType: street Type
+                streetSuffix: street suffix
+                postcode: GU99 1XX
+                locality: Burpham
+                city: Guildford
+                stateOrProvince: Surrey
+                country: UK
   /address/validate:
     post:
       tags:
@@ -279,12 +295,10 @@ definitions:
     properties:
       id:
         type: string
-        example: MyId
       href:
         type: string
       streetNr:
         type: string
-        example: My STreet
       streetNrSuffix:
         type: string
       streetNrLast:
