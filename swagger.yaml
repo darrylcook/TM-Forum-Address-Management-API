@@ -142,20 +142,24 @@ paths:
             $ref: '#/definitions/Address'
           examples:
             application/json:
-              - id: 123
-                href: 30912930
-                streetNr: Street
-                streetNrSuffix: STreet Suffix
-                streetNrLast: street Near Last
-                streetNrLastSuffix: street Near Last suffix
-                streetName: street Name
-                streetType: street Type
-                streetSuffix: street suffix
+              - id: 1238876
+                href: https://api.sse.co.uk/address/1238876
+                streetNr: 
+                streetNrSuffix: 
+                streetNrLast: 
+                streetNrLastSuffix: 
+                streetName: The Main
+                streetType: Avenue
+                streetSuffix: Avenue
                 postcode: GU99 1XX
                 locality: Burpham
                 city: Guildford
                 stateOrProvince: Surrey
                 country: UK
+                geoCode:
+                - latitude: 129982
+                  longitude: 887766
+                  geographicDatum: 99.99
   /address/validate:
     post:
       tags:
