@@ -279,10 +279,12 @@ definitions:
     properties:
       id:
         type: string
+        example: MyId
       href:
         type: string
       streetNr:
         type: string
+        example: My STreet
       streetNrSuffix:
         type: string
       streetNrLast:
