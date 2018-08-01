@@ -144,13 +144,13 @@ paths:
             application/json:
               - id: 123456701
                 href: https://api.sse.co.uk/address/123456701
-                streetNr: 
-                streetNrSuffix: 
+                streetNr: 52
+                streetNrSuffix: B
                 streetNrLast: 
                 streetNrLastSuffix: 
-                streetName: 52 Main
-                streetType: 
-                streetSuffix: Avenue
+                streetName: Penner
+                streetType: Road
+                streetSuffix: East
                 postcode: PO99 1XX
                 locality: Leigh Park
                 city: Havant
