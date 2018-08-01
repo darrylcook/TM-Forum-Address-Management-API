@@ -142,19 +142,19 @@ paths:
             $ref: '#/definitions/Address'
           examples:
             application/json:
-              - id: 1238876
-                href: https://api.sse.co.uk/address/1238876
+              - id: 123456701
+                href: https://api.sse.co.uk/address/123456701
                 streetNr: 
                 streetNrSuffix: 
                 streetNrLast: 
                 streetNrLastSuffix: 
-                streetName: The Main
-                streetType: Avenue
+                streetName: 52 Main
+                streetType: 
                 streetSuffix: Avenue
-                postcode: GU99 1XX
-                locality: Burpham
-                city: Guildford
-                stateOrProvince: Surrey
+                postcode: PO99 1XX
+                locality: Leigh Park
+                city: Havant
+                stateOrProvince: Hampshire
                 country: UK
                 geoCode:
                 - latitude: 129982
