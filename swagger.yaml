@@ -157,8 +157,8 @@ paths:
                 stateOrProvince: Hampshire
                 country: UK
                 geoCode:
-                - latitude: 129982
-                  longitude: 887766
+                - latitude: 50.843017
+                  longitude: -0.98926
                   geographicDatum: 99.99
   /address/validate:
     post:
