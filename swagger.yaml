@@ -159,7 +159,7 @@ paths:
                 geoCode:
                 - latitude: 50.843017
                   longitude: -0.98926
-                  geographicDatum: 99.99
+                  geographicDatum: 
   /address/validate:
     post:
       tags:
