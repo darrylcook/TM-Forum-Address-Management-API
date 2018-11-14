@@ -4,7 +4,7 @@ info:
   version: '1.0'
   title: TM Forum AddressManagement API
 host: api.orange.com
-basePath: /
+basePath: /addressManagement
 schemes:
   - http
 consumes:
@@ -142,24 +142,26 @@ paths:
             $ref: '#/definitions/Address'
           examples:
             application/json:
-              - id: 123456701
-                href: https://api.ccm-dev.sse.co.uk:9022/address/address?addressId=123456701
-                streetNr: 52
-                streetNrSuffix: B
-                streetNrLast: 
-                streetNrLastSuffix: 
-                streetName: Penner
-                streetType: Road
-                streetSuffix: East
-                postcode: PO9 1QH
-                locality: Leigh Park
-                city: Havant
-                stateOrProvince: Hampshire
-                country: UK
-                geoCode:
-                - latitude: 50.843017
-                  longitude: -0.98926
-                  geographicDatum: 
+              id: '123456701'
+              href: https://api.ccm-dev.sse.co.uk:9022/address/address?addressId=123456701
+              streetNr: '52'
+              streetNrSuffix: B
+              streetNrLast: ' '
+              streetNrLastSuffix: ' '
+              streetName: Penner
+              streetType: Road
+              streetSuffix: East
+              postcode: PO9 1QH
+              locality: Leigh Park
+              city: Havant
+              stateOrProvince: Hampshire
+              country: UK
+              confirmedBy: "Agent"
+              geoCode:
+                latitude: "10.9999"
+                longditude: "19.9999"
+                geographicDatum: " "
+ 
   /address/validate:
     post:
       tags:
